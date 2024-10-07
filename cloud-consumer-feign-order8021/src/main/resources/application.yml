@@ -1,0 +1,38 @@
+server:
+  port: 8021
+
+spring:
+  profiles:
+    active: dev # 多环境配置加载内容dev/prod,不写就是默认default配置
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        failure-rate-threshold: 50
+        sliding-window-size: 5
+        sliding-window-type: COUNT_BASED
+        minimum-number-of-calls: 5
+        automatic-transition-from-open-to-half-open-enabled: true
+        wait-duration-in-open-state:
+          seconds: 5
+        permitted-number-of-calls-in-half-open-state: 2
+        record-exceptions:
+          - java.lang.Exception
+    instances:
+      cloud-provider-payment:
+        base-config: default
+  ratelimiter:
+    instances:
+      cloud-provider-payment:
+        base-config: default
+    configs:
+      default:
+        limit-refresh-period: 100s
+        limit-for-period: 100
+        timeout-duration: 1
+

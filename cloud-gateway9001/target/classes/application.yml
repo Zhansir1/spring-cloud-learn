@@ -1,0 +1,30 @@
+server:
+  port: 9001
+
+spring:
+  datasource:
+    username: root
+    password: 642101715
+    url: "jdbc:mysql://10.189.140.61:13306/spring-cloud-gateway?allowPublicKeyRetrieval=true"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  cloud:
+    gateway:
+      routes:
+        - id: getPayById
+          uri: lb://cloud-provider-payment
+          predicates:
+            # - Path=/pay/gateway/get/**
+            - Path=/getPay/{id}
+            - After=2024-09-27T15:23:00.000000000+08:00[Asia/Shanghai]
+          filters:
+            - SetPath=/pay/gateway/get/{id}
+        - id: getPayAll
+          uri: lb://cloud-provider-payment
+          predicates:
+            # - Path=/pay/gateway/getall
+            - Path=/getAllPay
+            - After=2024-09-27T15:23:00.000000000+08:00[Asia/Shanghai]
+          filters:
+            - SetPath=/pay/gateway/getall
+

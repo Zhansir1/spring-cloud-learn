@@ -1,0 +1,6 @@
+server:
+  port: 8001
+
+spring:
+  profiles:
+    active: dev # 多环境配置加载内容dev/prod,不写就是默认default配置

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.189.140.61:8848
+      config:
+        file-extension: yaml
+        server-addr: 10.189.140.61:8848

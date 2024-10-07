@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.189.140.61:8848
+      config:
+        file-extension: yaml
+        server-addr: 10.189.140.61:8848
+    openfeign:
+      client:
+        config:
+          cloud-provider-payment:
+            connect-timeout: 3000
+            read-timeout: 3000
+      compression:
+        request:
+          enabled: true
+        response:
+          enabled: true
+
