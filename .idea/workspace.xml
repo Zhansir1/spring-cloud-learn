@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="295b5071-743c-49bb-87d9-f032b61327ec" name="Changes" comment="" />
+    <list default="true" id="295b5071-743c-49bb-87d9-f032b61327ec" name="Changes" comment="cloud-learn-demo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +39,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -77,7 +80,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33448276",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -236,12 +239,41 @@
       <workItem from="1726041750446" duration="14325000" />
       <workItem from="1727092140270" duration="8911000" />
       <workItem from="1727417342538" duration="19691000" />
-      <workItem from="1727594325641" duration="41121000" />
+      <workItem from="1727594325641" duration="41342000" />
     </task>
+    <task id="LOCAL-00001" summary="cloud-learn-demo">
+      <option name="closed" value="true" />
+      <created>1728293767381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728293767382</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cloud-learn-demo">
+      <option name="closed" value="true" />
+      <created>1728293793225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728293793225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cloud-learn-demo">
+      <option name="closed" value="true" />
+      <created>1728293844748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728293844749</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cloud-learn-demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloud-learn-demo" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
