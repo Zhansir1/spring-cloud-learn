@@ -1,0 +1,19 @@
+server:
+  port: 6001
+spring:
+  profiles:
+    active: dev # 多环境配置加载内容dev/prod,不写就是默认default配置
+  data:
+    redis:
+      host: 10.189.140.61
+      port: 6379
+      password: 123456
+      database: 0
+      timeout: 3000
+      connect-timeout: 5000
+      lettuce:
+        pool:
+          min-idle: 4
+          max-idle: 8
+          max-active: 100
+          max-wait: 3000

@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ResilienceController {
 
-    private static final Logger log = LoggerFactory.getLogger(ResilienceController.class);
     @Resource
     private PayFeignApi payFeignApi;
 

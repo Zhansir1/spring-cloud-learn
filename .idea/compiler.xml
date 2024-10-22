@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-consumer-feign-order8021" />
+        <module name="cloud-redis-player6001" />
         <module name="cloud-provider-payment8002" />
-        <module name="cloud-consumer-order8020" />
         <module name="cloud-api-common" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-gateway9001" />
+        <module name="cloud-consumer-order8020" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

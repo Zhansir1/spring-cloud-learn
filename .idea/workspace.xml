@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="295b5071-743c-49bb-87d9-f032b61327ec" name="Changes" comment="cloud-learn-demo" />
+    <list default="true" id="295b5071-743c-49bb-87d9-f032b61327ec" name="Changes" comment="cloud-learn-demo">
+      <change afterPath="$PROJECT_DIR$/cloud-redis-player6001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-redis-player6001/src/test/java/com/zhansir/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order8021/src/main/java/com/zhansir/controller/ResilienceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order8021/src/main/java/com/zhansir/controller/ResilienceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order8021/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order8021/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order8021/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order8021/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order8021/target/classes/com/zhansir/controller/ResilienceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order8021/target/classes/com/zhansir/controller/ResilienceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Zhansir1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Zhansir1/spring-cloud-learn.git&quot;,
+    &quot;accountId&quot;: &quot;d316f2a2-5ad5-4c97-a792-a631b50f3173&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -67,10 +90,11 @@
     "Spring Boot.GatewayApplication9001.executor": "Run",
     "Spring Boot.PaymentApplication8001.executor": "Run",
     "Spring Boot.PaymentApplication8002.executor": "Run",
+    "Spring Boot.RedisPlayerApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/spring_cloud/cloud",
+    "last_opened_file_path": "C:/workspace/idi/smart-bi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,20 +146,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication9001">
-    <configuration name="ConsumerOrder8021_Feign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhansir.ConsumerOrder8021_Feign" />
-      <module name="cloud-consumer-feign-order8021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhansir.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.RedisPlayerApplication">
     <configuration name="ConsumerOrder8020" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-order8020" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhansir.ConsumerOrder8020" />
@@ -195,9 +206,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisPlayerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-redis-player6001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhansir.RedisPlayerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhansir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ConsumerOrder8021_Feign" />
       <item itemvalue="Spring Boot.PaymentApplication8001" />
+      <item itemvalue="Spring Boot.RedisPlayerApplication" />
       <item itemvalue="Spring Boot.PaymentApplication8002" />
       <item itemvalue="Spring Boot.ConsumerOrder8020" />
       <item itemvalue="Spring Boot.ConsumerOrder8021_Feign" />
@@ -205,11 +229,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RedisPlayerApplication" />
         <item itemvalue="Spring Boot.GatewayApplication9001" />
         <item itemvalue="Spring Boot.ConsumerOrder8021_Feign" />
         <item itemvalue="Spring Boot.ConsumerOrder8020" />
         <item itemvalue="Spring Boot.PaymentApplication8002" />
-        <item itemvalue="Application.ConsumerOrder8021_Feign" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +263,9 @@
       <workItem from="1726041750446" duration="14325000" />
       <workItem from="1727092140270" duration="8911000" />
       <workItem from="1727417342538" duration="19691000" />
-      <workItem from="1727594325641" duration="41342000" />
+      <workItem from="1727594325641" duration="72396000" />
+      <workItem from="1729586638486" duration="4000" />
+      <workItem from="1729586664384" duration="4647000" />
     </task>
     <task id="LOCAL-00001" summary="cloud-learn-demo">
       <option name="closed" value="true" />
@@ -265,11 +291,38 @@
       <option name="project" value="LOCAL" />
       <updated>1728293844749</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cloud-learn-demo">
+      <option name="closed" value="true" />
+      <created>1728294106080</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728294106080</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cloud-learn-demo">
+      <option name="closed" value="true" />
+      <created>1728294110345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728294110345</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cloud-learn-demo" />
