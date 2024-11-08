@@ -14,6 +14,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-gateway9001" />
         <module name="cloud-consumer-order8020" />
+        <module name="cloud-rocketmq-player6002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

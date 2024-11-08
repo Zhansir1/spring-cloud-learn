@@ -1,0 +1,46 @@
+package com.zhansir.config;
+
+import lombok.Data;
+import org.apache.rocketmq.client.producer.DefaultMQProducer;
+import org.apache.rocketmq.spring.core.RocketMQTemplate;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@Data
+public class ProducerConfig {
+
+    @Value("${rocketmq.name-server}")
+    private String nameServer;
+
+    @Value("${rocketmq.producer.group}")
+    private String producerGroup;
+
+    @Value("${rocketmq.producer.send-message-timeout}")
+    private Integer sendMsgTimeout;
+
+    @Value("${rocketmq.producer.retry-times-when-send-failed}")
+    private Integer retryTimesWhenSendFailed ;
+
+    @Value("${rocketmq.producer.retry-times-when-send-async-failed}")
+    private Integer retryTimesWhenSendAsyncFailed ;
+
+    @Bean
+    public RocketMQTemplate myRocketMqTemplate(){
+        RocketMQTemplate rocketMqTemplate = new RocketMQTemplate();
+        rocketMqTemplate.setProducer(MyMqProducer());
+        return rocketMqTemplate;
+    }
+
+    @Bean
+    public DefaultMQProducer MyMqProducer() {
+        DefaultMQProducer producer = new DefaultMQProducer();
+        producer.setNamesrvAddr(this.nameServer);
+        producer.setProducerGroup(this.producerGroup);
+        producer.setSendMsgTimeout(this.sendMsgTimeout);
+        producer.setRetryTimesWhenSendFailed(this.retryTimesWhenSendFailed);
+        producer.setRetryTimesWhenSendAsyncFailed(this.retryTimesWhenSendAsyncFailed);
+        return producer;
+    }
+}

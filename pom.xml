@@ -16,6 +16,7 @@
         <module>cloud-consumer-feign-order8021</module>
         <module>cloud-gateway9001</module>
         <module>cloud-redis-player6001</module>
+        <module>cloud-rocketmq-player6002</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -43,6 +44,7 @@
         <micrometer-observation.version>1.12.0</micrometer-observation.version>
         <feign-micrometer.version>12.5</feign-micrometer.version>
         <zipkin-reporter-brave.version>2.17.0</zipkin-reporter-brave.version>
+        <rocketmq.version>2.3.1</rocketmq.version>
     </properties>
 
     <dependencyManagement>
@@ -151,6 +153,12 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

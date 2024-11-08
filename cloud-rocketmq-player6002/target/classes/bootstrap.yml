@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: cloud-rocketmq-player
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.189.140.61:8848
