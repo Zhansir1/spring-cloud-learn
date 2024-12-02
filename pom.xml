@@ -17,6 +17,7 @@
         <module>cloud-gateway9001</module>
         <module>cloud-redis-player6001</module>
         <module>cloud-rocketmq-player6002</module>
+        <module>cloud-email-player5870</module>
     </modules>
     <packaging>pom</packaging>
 

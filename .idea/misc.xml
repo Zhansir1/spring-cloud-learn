@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cloud-consumer-feign-order8022/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-quartz-player5001/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_generator2024/pom.xml" />
       </set>
     </option>

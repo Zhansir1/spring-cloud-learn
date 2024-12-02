@@ -9,12 +9,16 @@
     <file url="file://$PROJECT_DIR$/cloud-consumer-feign-order8022/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-order8020/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-order8020/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-email-player5870/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-email-player5870/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-gateway9001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-gateway9001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-quartz-player5001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-quartz-player5001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-redis-player6001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-redis-player6001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-rocketmq-player6002/src/main/java" charset="UTF-8" />

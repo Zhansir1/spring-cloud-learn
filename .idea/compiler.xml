@@ -11,6 +11,7 @@
         <module name="cloud-redis-player6001" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-api-common" />
+        <module name="cloud-email-player5870" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-gateway9001" />
         <module name="cloud-consumer-order8020" />
@@ -19,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-consumer-feign-order8022" target="17" />
+      <module name="cloud-quartz-player5001" target="17" />
       <module name="mybatis_generator2024" target="17" />
     </bytecodeTargetLevel>
   </component>
